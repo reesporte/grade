@@ -1,221 +1,302 @@
 <html>
-    <head>
-        <meta charset="utf-8"/>
-        <title>
-            boulder grade converter
-        </title>
-        <meta name="author" content="Reese Porter"/>
-        <meta name="description" content="boulder grade converter"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <style> th, td, tr { font-size: x-large } </style>
-    </head>
-    <body>
-        <table>
-            <tbody>
-                <tr>
-                    <th>
-                        Vermin
-                    </th>
-                    <th>
-                        Fontainebleau
-                    </th>
-                </tr>
-                <tr align="center" bgcolor="gray">
-                    <td rowspan="3">
-                        VB
-                    </td>
-                    <td>
-                        1
-                    </td>
-                </tr>
-                <tr align="center" bgcolor="gray">
-                    <td>
-                        2
-                    </td>
-                </tr>
-                <tr align="center" bgcolor="gray">
-                    <td>
-                        3
-                    </td>
-                </tr>
-                <tr align="center">
-                    <td rowspan="2">
-                        V0
-                    </td>
-                    <td>
-                        4
-                    </td>
-                </tr>
-                <tr align="center">
-                    <td>
-                        4+
-                    </td>
-                </tr>
-                <tr align="center" bgcolor="gray">
-                    <td>
-                        V1
-                    </td>
-                    <td>
-                        5
-                    </td>
-                </tr>
-                <tr align="center">
-                    <td rowspan="2">
-                        V2
-                    </td>
-                    <td>
-                        5+
-                    </td>
-                </tr>
-                <tr align="center" bgcolor="gray">
-                    <td rowspan="2">
-                        6A
-                    </td>
-                </tr>
-                <tr align="center" bgcolor="gray">
-                    <td rowspan="2">
-                        V3
-                    </td>
-                </tr>
-                <tr align="center" bgcolor="gray">
-                    <td>
-                        6A+
-                    </td>
-                </tr>
-                <tr align="center">
-                    <td rowspan="2">
-                        V4
-                    </td>
-                    <td>
-                        6B
-                    </td>
-                </tr>
-                <tr align="center" bgcolor="gray">
-                    <td rowspan="2">
-                        6B+
-                    </td>
-                </tr>
-                <tr align="center" bgcolor="gray">
-                    <td rowspan="2">
-                        V5
-                    </td>
-                </tr>
-                <tr align="center" bgcolor="gray">
-                    <td>
-                        6C
-                    </td>
-                </tr>
-                <tr align="center">
-                    <td rowspan="2">
-                        V6
-                    </td>
-                    <td>
-                        6C+
-                    </td>
-                </tr>
-                <tr align="center" bgcolor="gray">
-                    <td rowspan="2">
-                        7A
-                    </td>
-                </tr>
-                <tr align="center" bgcolor="gray">
-                    <td rowspan="2">
-                        V7
-                    </td>
-                </tr>
-                <tr align="center" bgcolor="gray">
-                    <td>
-                        7A+
-                    </td>
-                </tr>
-                <tr align="center">
-                    <td rowspan="2">
-                        V8
-                    </td>
-                    <td>
-                        7B
-                    </td>
-                </tr>
-                <tr align="center" bgcolor="gray">
-                    <td rowspan="2">
-                        7B+
-                    </td>
-                </tr>
-                <tr align="center" bgcolor="gray">
-                    <td rowspan="2">
-                        V9
-                    </td>
-                </tr>
-                <tr align="center" bgcolor="gray">
-                    <td>
-                        7C
-                    </td>
-                </tr>
-                <tr align="center">
-                    <td>
-                        V10
-                    </td>
-                    <td>
-                        7C+
-                    </td>
-                </tr>
-                <tr align="center" bgcolor="gray">
-                    <td>
-                        V11
-                    </td>
-                    <td>
-                        8A
-                    </td>
-                </tr>
-                <tr align="center">
-                    <td>
-                        V12
-                    </td>
-                    <td>
-                        8A+
-                    </td>
-                </tr>
-                <tr align="center" bgcolor="gray">
-                    <td>
-                        V13
-                    </td>
-                    <td>
-                        8B
-                    </td>
-                </tr>
-                <tr align="center">
-                    <td>
-                        V14
-                    </td>
-                    <td>
-                        8B+
-                    </td>
-                </tr>
-                <tr align="center" bgcolor="gray">
-                    <td>
-                        V15
-                    </td>
-                    <td>
-                        8C
-                    </td>
-                </tr>
-                <tr align="center">
-                    <td>
-                        V16
-                    </td>
-                    <td>
-                        8C+
-                    </td>
-                </tr>
-                <tr align="center" bgcolor="gray">
-                    <td>
-                        V17
-                    </td>
-                    <td>
-                        9A
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    </body>
+  <head>
+    <meta charset="utf-8" />
+    <title>climbing grade conversions</title>
+    <meta name="author" content="Reese Porter" />
+    <meta name="description" content="climbing grade conversions" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+        font-size: xx-large;
+      }
+      tbody {
+        font-size: x-large;
+      }
+      tbody tr:nth-child(odd) {
+        background-color: #cccccc;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="top">
+      <ul>
+        <li><a href="#boulder">boulder</a></li>
+        <li><a href="#sport">sport</a></li>
+      </ul>
+    </div>
+    <div id="boulder">
+      <a href="#top"><h2>boulder</h2></a>
+      <table>
+        <tbody>
+          <tr>
+            <th>hueco</th>
+            <th>fontainebleau</th>
+          </tr>
+          <tr>
+            <td>VB</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>VB</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>VB</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>VB</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td>V0</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td>V0</td>
+            <td>4+</td>
+          </tr>
+          <tr>
+            <td>V1</td>
+            <td>5</td>
+          </tr>
+          <tr>
+            <td>V2</td>
+            <td>5+</td>
+          </tr>
+          <tr>
+            <td>V3</td>
+            <td>6A</td>
+          </tr>
+          <tr>
+            <td>V3</td>
+            <td>6A+</td>
+          </tr>
+          <tr>
+            <td>V4</td>
+            <td>6B</td>
+          </tr>
+          <tr>
+            <td>V5</td>
+            <td>6B+</td>
+          </tr>
+          <tr>
+            <td>V5</td>
+            <td>6C</td>
+          </tr>
+          <tr>
+            <td>V6</td>
+            <td>6C+</td>
+          </tr>
+          <tr>
+            <td>V7</td>
+            <td>7A</td>
+          </tr>
+          <tr>
+            <td>V7</td>
+            <td>7A+</td>
+          </tr>
+          <tr>
+            <td>V8</td>
+            <td>7B</td>
+          </tr>
+          <tr>
+            <td>V9</td>
+            <td>7B+</td>
+          </tr>
+          <tr>
+            <td>V9</td>
+            <td>7C</td>
+          </tr>
+          <tr>
+            <td>V10</td>
+            <td>7C+</td>
+          </tr>
+          <tr>
+            <td>V11</td>
+            <td>8A</td>
+          </tr>
+          <tr>
+            <td>V12</td>
+            <td>8A+</td>
+          </tr>
+          <tr>
+            <td>V13</td>
+            <td>8B</td>
+          </tr>
+          <tr>
+            <td>V14</td>
+            <td>8B+</td>
+          </tr>
+          <tr>
+            <td>V15</td>
+            <td>8C</td>
+          </tr>
+          <tr>
+            <td>V16</td>
+            <td>8C+</td>
+          </tr>
+          <tr>
+            <td>V17</td>
+            <td>9A</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div id="sport">
+      <a href="#top"><h2>sport</h2></a>
+      <table>
+        <tbody>
+          <tr>
+            <th>french</th>
+            <th>north america</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>5.1</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>5.2</td>
+          </tr>
+          <tr>
+            <td>2+</td>
+            <td>5.3</td>
+          </tr>
+          <tr>
+            <td>3a</td>
+            <td>5.3</td>
+          </tr>
+          <tr>
+            <td>3b</td>
+            <td>5.4</td>
+          </tr>
+          <tr>
+            <td>3c</td>
+            <td>5.5</td>
+          </tr>
+          <tr>
+            <td>4a</td>
+            <td>5.6</td>
+          </tr>
+          <tr>
+            <td>4b</td>
+            <td>5.7</td>
+          </tr>
+          <tr>
+            <td>4c</td>
+            <td>5.8</td>
+          </tr>
+          <tr>
+            <td>5a</td>
+            <td>5.8</td>
+          </tr>
+          <tr>
+            <td>5b</td>
+            <td>5.9</td>
+          </tr>
+          <tr>
+            <td>5c</td>
+            <td>5.10a</td>
+          </tr>
+          <tr>
+            <td>6a</td>
+            <td>5.10b</td>
+          </tr>
+          <tr>
+            <td>6a+</td>
+            <td>5.10b</td>
+          </tr>
+          <tr>
+            <td>6b</td>
+            <td>5.10c</td>
+          </tr>
+          <tr>
+            <td>6b+</td>
+            <td>5.10d</td>
+          </tr>
+          <tr>
+            <td>6c</td>
+            <td>5.11a</td>
+          </tr>
+          <tr>
+            <td>6c+</td>
+            <td>5.11c</td>
+          </tr>
+          <tr>
+            <td>7a</td>
+            <td>5.11d</td>
+          </tr>
+          <tr>
+            <td>7a+</td>
+            <td>5.12a</td>
+          </tr>
+          <tr>
+            <td>7b</td>
+            <td>5.12b</td>
+          </tr>
+          <tr>
+            <td>7b+</td>
+            <td>5.12c</td>
+          </tr>
+          <tr>
+            <td>7c</td>
+            <td>5.12d</td>
+          </tr>
+          <tr>
+            <td>7c+</td>
+            <td>5.13a</td>
+          </tr>
+          <tr>
+            <td>8a</td>
+            <td>5.13b</td>
+          </tr>
+          <tr>
+            <td>8a+</td>
+            <td>5.13c</td>
+          </tr>
+          <tr>
+            <td>8b</td>
+            <td>5.13d</td>
+          </tr>
+          <tr>
+            <td>8b+</td>
+            <td>5.14a</td>
+          </tr>
+          <tr>
+            <td>8c</td>
+            <td>5.14b</td>
+          </tr>
+          <tr>
+            <td>8c+</td>
+            <td>5.14c</td>
+          </tr>
+          <tr>
+            <td>9a</td>
+            <td>5.14d</td>
+          </tr>
+          <tr>
+            <td>9a+</td>
+            <td>5.15a</td>
+          </tr>
+          <tr>
+            <td>9b</td>
+            <td>5.15b</td>
+          </tr>
+          <tr>
+            <td>9b+</td>
+            <td>5.15c</td>
+          </tr>
+          <tr>
+            <td>9c</td>
+            <td>5.15d</td>
+          </tr>
+          <tr>
+            <td>9c+</td>
+            <td>5.16a</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
 </html>
