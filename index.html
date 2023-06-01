@@ -5,6 +5,11 @@
     <meta name="author" content="Reese Porter" />
     <meta name="description" content="climbing grade conversions" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://reeseporter.xyz/styles.css"
+    />
     <style>
       body {
         font-size: xx-large;
@@ -15,10 +20,9 @@
       tbody tr:nth-child(odd) {
         background-color: #cccccc;
       }
-
       label {
         text-decoration: underline;
-        color: blue;
+        color: inherit;
       }
       label:hover {
         cursor: pointer;
@@ -35,7 +39,6 @@
       #sport-toggle:checked ~ .sport {
         display: block;
       }
-
       .box {
         padding: 1em;
       }
@@ -43,7 +46,7 @@
   </head>
   <body>
     <div class="box">
-      <label for="boulder-toggle">boulder</label>
+      <a><label for="boulder-toggle">boulder</label></a>
       <input type="checkbox" id="boulder-toggle" style="display: none" />
       <div class="boulder">
         <table>
@@ -165,7 +168,7 @@
       </div>
     </div>
     <div class="box">
-      <label for="sport-toggle">sport</label>
+      <a><label for="sport-toggle">sport</label></a>
       <input type="checkbox" id="sport-toggle" style="display: none" />
       <div class="sport">
         <table>
